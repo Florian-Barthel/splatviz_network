@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="splatviz_network",
-    version="0.0.1",
+    version="0.0.2",
     description="Network connector for splatviz",
     url="https://github.com/Florian-Barthel/splatviz_network",
     author="Florian Barthel",
