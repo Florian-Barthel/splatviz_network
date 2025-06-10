@@ -4,7 +4,7 @@ import traceback
 import socket
 import json
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __author__ = 'Florian Barthel'
 
 
@@ -42,7 +42,7 @@ class SplatvizNetwork:
         expected_bytes = int.from_bytes(messageLength, 'little')
 
         current_bytes = 0
-        try_counter = 10
+        try_counter = 100
         counter = 0
         message = bytes()
         while current_bytes < expected_bytes:
